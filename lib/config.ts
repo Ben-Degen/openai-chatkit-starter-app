@@ -7,15 +7,15 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "Wonach bewertest du die Qualität von Forschungsfragen?",
+    prompt: "Wonach bewertest du die Qualität von Forschungsfragen?",
     icon: "circle-question",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Lass uns gemeinsam eine Forschungsfrage entwickeln! Nenne mir dein Thema oder stelle mir eine erste Idee für eine Forschungsfrage vor.";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Guten Tag! Ich bin Sokrates und helfe dir bei der Forschungsfragenentwicklung.";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
