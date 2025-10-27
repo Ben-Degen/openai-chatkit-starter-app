@@ -27,11 +27,7 @@ export default function App() {
           onWidgetAction={handleWidgetAction}
           onResponseEnd={handleResponseEnd}
           onThemeRequest={setScheme}
-          // NEW: your custom texts
-          title="Hallo! Ich bin FOCUSED, dein Tutor für die Forschungsfragenentwicklung."
-          subtitle="Hast du ein Thema zu wir eine Forschungsfrage entwickeln sollen, oder bereits eine Forschungsfrage, die wir gemeinsam weiterentwickeln sollen?"
-          initialAssistant="👋 Willkommen! Ich bin dein sokratischer Tutor FOCUSED. Womit möchtest du beginnen?"        
-        />
+             />
       </div>
     </main>
   );
